@@ -1,0 +1,441 @@
+
+body  {
+      background-color: linen;
+      text-align: center;
+      }
+
+.body-landing {
+      background-image: url('https://wallpaperaccess.com/full/2142855.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      }
+
+a:link  {
+        color: #FAD067;
+        background-color: transparent;
+        text-decoration: underline;
+        }
+
+a:active  {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: none;
+          }
+
+a:hover {
+        background-color: orange;
+        }
+
+a.hov1:hover  {
+              background-color: yellow;
+              }
+
+p3  {
+    color:white;
+    font-family:Helvetica;
+    font-size: 1em;
+    margin-top: .75%;
+    margin-bottom: .75%;
+    }
+
+p2  {
+    color: maroon;
+    font-family:Copperplate;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    }
+      
+h2  {
+    color:#1F618D;
+    font-family:'Brush Script MT';
+    font-size: 1.5em;
+    }
+      
+p   {
+    color:darkblue;
+    font-family:Helvetica;
+    font-size: 0.75em;
+    }
+
+.box2   {
+        /*border: 1px ridge red;*/
+        width: 60%;
+        height: 21%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        /*background-color: #B3D0EB;*/
+        }
+        
+.box1FL   {
+          /*float: left;*/
+          /*border: 5px solid green;*/
+          width: 100%;
+          height: 360px;
+          /*margin-right: auto;
+          margin-left: auto;*/
+          padding-bottom: 30px;
+          padding-top: 30px;*/
+          /*background-color: #8FC5F7;*/
+          }
+
+
+.flex-container {
+
+                display: flex;
+                /*background-color: DodgerBlue;*/
+                margin-bottom: 30px;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                /*height: 500px;*/
+                }
+
+.flex-container > div {
+                      margin: 10px;
+                      width: 30%;
+                      }
+
+.flex-container2 {
+                display: inline-flex;
+                /*background-color: Orange;*/
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                /*height: 500px;*/
+                width: 100%;
+                margin-bottom: 50px;
+                }
+
+.flex-container2 > div {
+                      margin-right: 3%;
+                      width: 25%;
+                      
+                      }
+
+.flex-container-bottom {
+                display: inline-flex;
+                background-color: #A15E1B;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 10px;
+                padding-bottom: 1%;
+                padding-top: 1%;
+                }
+
+.flex-container-bottom > div {
+                      margin-right: 3%;
+                      width: 25%;
+                      }
+
+.flex-container-bottom2 {
+                display: inline-flex;
+                /*background-color: yellow;*/
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 10px;
+                padding-bottom: 1%;
+                padding-top: 1%;
+                }
+
+.flex-container-bottom2 > div {
+                      margin-right: 3%;
+                      width: 25%;
+                      }
+                      
+.w3-animate-left  {
+                  position:relative;
+                  animation:animateleft 1s;
+                  }
+                  @keyframes animateleft  {
+                                          from  { left:-300px;
+                                                  opacity:0
+                                                }
+                                          to    { left:0;
+                                                  opacity:1
+                                                }
+                                          }
+
+.w3-animate-bottom  {
+                    position:relative;
+                    animation:animatebottom 1s;
+                    }
+                    @keyframes animatebottom  {
+                                              from  { top:400px;
+                                                      opacity:0
+                                                    }
+                                              to    { top:0;
+                                                      opacity:1
+                                                    }
+                                              }
+
+.w3-animate-top  {
+                    position:relative;
+                    animation:animatetop 2s;
+                    }
+                    @keyframes animatetop  {
+                                              from  { bottom:500px;
+                                                      opacity:0
+                                                    }
+                                              to    { bottom:0;
+                                                      opacity:1
+                                                    }
+                                              }
+
+.popimg {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        }
+
+.popimg:hover {
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -o-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        transform: scale(1.04);
+        }
+
+.landing {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+                
+/* Landing Page */
+
+.LandingBar
+  {
+	background: black;
+	position: fixed;
+	left: 0;
+	height: 10%;
+	width: 100%;
+	margin-top: 2.5%;
+	opacity: 60%;
+  }
+
+.btn
+	{
+	background: none;
+	opacity: 1;
+	border-radius: 10px;
+	border: 2px solid white;
+	cursor: pointer;
+	color: white;
+	font-family: Helvetica;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 5px 10px 5px 10px;
+	}
+
+.btn2
+	{
+	background: none;
+	opacity: 1;
+	border-radius: 10px;
+	border: 2px solid #A15E1B;
+	cursor: pointer;
+	color: #A15E1B;
+	font-family: Helvetica;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 5px 10px 5px 10px;
+	}
+	
+.btn2:hover, .btn2:focus
+  {
+  background-color: yellow;
+  color: black;
+  }
+	
+.alignVb
+  {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: end;
+  justify-content: center;
+  }
+  
+.alignV
+  {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+  justify-content: center;
+  }
+
+.btn-space
+	{
+	background: none;
+	opacity: 0;
+  width: 50px;
+	}
+
+.btn:hover, .btn:focus
+  {
+  background-color: yellow;
+  color: black;
+  }
+
+#myDIV {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /*background-color: lightblue;*/
+  flex-direction: row;
+	font-family: Helvetica;
+	display: none;
+}
+
+.myDIVbox {
+          position: relative;
+          left: 0;
+          /*border: 2px solid red;*/
+          width: 60%;
+          height: 50%;
+          padding-bottom: 30px;
+          padding-top: 30px;
+          color: white;
+          background: black;
+          opacity: 60%;
+          padding-left: 30px;
+          padding-right: 30px;
+          }
+
+#myDIV2 {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+	font-family: Helvetica;
+	display: none;
+}
+
+.myDIVbox2 {
+          position: relative;
+          left: 0;
+          /*border: 2px solid red;*/
+          width: 60%;
+          height: 50%;
+          padding-bottom: 30px;
+          padding-top: 30px;
+          color: white;
+          background: black;
+          opacity: 60%;
+          padding-left: 30px;
+          padding-right: 30px;
+          }
+
+#myDIV1 {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+	font-family: Helvetica;
+	display: none;
+}
+
+.myDIVbox1 {
+          position: relative;
+          left: 0;
+          /*border: 2px solid red;*/
+          width: 60%;
+          height: 50%;
+          padding-bottom: 30px;
+          padding-top: 30px;
+          color: white;
+          background: black;
+          opacity: 60%;
+          padding-left: 30px;
+          padding-right: 30px;
+          }
+
+#landing-title
+{
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+	display: flex;
+}
+
+.titleBox {
+          box-sizing: border-box;
+          position: relative;
+          left: 0;
+          width: 80%;
+          height: 50%
+          color: black;
+          /*background: green;*/
+          opacity: 70%;
+          font-size: 7.5em;
+          line-height: 80%;
+          font-family: 'Monoton', cursive;
+          padding-bottom: 10%;
+          }`
+
+#bottombox {
+      box-sizing: content-box;
+      }
+
+
+.box
+    {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 1%;
+    transform: translateY(-20%);
+	  display: flex;
+    width: 100%;
+    color: white;
+    opacity: 60%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 2em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*background: blue;
+    border: 2px solid red;*/
+
+    }
+
+
+/*-------------*/
+
+
